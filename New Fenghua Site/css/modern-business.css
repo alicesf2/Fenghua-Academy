@@ -31,3 +31,7 @@ p {
 .portfolio-item {
   margin-bottom: 30px;
 }
+
+.card-text {
+  font-size: 15px;
+}
