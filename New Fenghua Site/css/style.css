@@ -37,4 +37,7 @@ p {
   font-size: 15px;
 }
 
-@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css");
+.container {
+  padding-left: 0px;
+  padding-right: 0px;
+}
