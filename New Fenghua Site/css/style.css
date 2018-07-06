@@ -36,3 +36,8 @@ p {
 .card-text {
   font-size: 15px;
 }
+
+.list-group {
+  width: inherit;
+  height: auto;
+}
