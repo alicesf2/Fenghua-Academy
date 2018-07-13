@@ -15,6 +15,18 @@
 
   <!-- Custom styles for this template -->
   <link href="css/style.css" rel="stylesheet">
+  <script>
+    $(document).ready(function() {
+      $(window).scroll(function() {
+        var scroll = $(window).scrollTop();
+        if (scroll > 10) {
+          $(".navbar").css("background", "black");
+        } else {
+          $(".navbar").css("background", "transparent");
+        }
+      })
+    })
+  </script>
 
 </head>
 
@@ -60,7 +72,7 @@
   </nav>
 
   <!--Carousel-->
-  <header>
+  <!-- <header>
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -68,21 +80,21 @@
         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
       </ol>
       <div class="carousel-inner" role="listbox">
-        <!-- Slide One - Set the background image for this slide in the line below -->
+        Slide One - Set the background image for this slide in the line below
         <div class="carousel-item active" style="background-image: url('http://placehold.it/1900x1080')">
           <div class="carousel-caption d-none d-md-block">
             <h3>First Slide</h3>
             <p>This is a description for the first slide.</p>
           </div>
         </div>
-        <!-- Slide Two - Set the background image for this slide in the line below -->
+        Slide Two - Set the background image for this slide in the line below
         <div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
           <div class="carousel-caption d-none d-md-block">
             <h3>Second Slide</h3>
             <p>This is a description for the second slide.</p>
           </div>
         </div>
-        <!-- Slide Three - Set the background image for this slide in the line below -->
+        Slide Three - Set the background image for this slide in the line below
         <div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
           <div class="carousel-caption d-none d-md-block">
             <h3>Third Slide</h3>
@@ -99,155 +111,136 @@
           <span class="sr-only">Next</span>
         </a>
     </div>
-  </header>
+  </header> -->
+
+  <!--Cover Section-->
+  <div class="cover-section">
+    <div class="cover-container d-flex w-100 h-100 mx-auto flex-column">
+      <main role="main" class="inner cover">
+        <h1 class="display-3">Fenghua Academy</h1>
+        <p class="lead">Some catchy mission statement.</p>
+      </main>
+    </div>
+  </div>
 
   <!-- Page Content -->
-  <div class="container">
+  <div class="container-fluid">
     <h1 class="my-4" align="center">News</h1>
-
+    <h2>Notices</h2>
     <!-- Content Row -->
     <div class="row">
 
       <!-- Content Column -->
       <div class="col-lg-9 mb-4">
-        <h2>Updates</h2>
         <div class="row">
+
+          <!--Card 1: Notice 1-->
           <div class="col-lg-4 mb-4">
             <div class="card h-100">
-              <h4 class="card-header">Update 1</h4>
               <div class="card-body">
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
               </div>
             </div>
           </div>
+
+          <!--Card 2: Notice 2-->
           <div class="col-lg-4 mb-4">
             <div class="card h-100">
-              <h4 class="card-header">Update 2</h4>
               <div class="card-body">
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
               </div>
             </div>
           </div>
+
+          <!--Card 3: Notice 3-->
           <div class="col-lg-4 mb-4">
             <div class="card h-100">
-              <h4 class="card-header">Update 3</h4>
               <div class="card-body">
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
               </div>
             </div>
           </div>
         </div>
-        <!-- /.row -->
+        <br><br><br>
 
-        <!-- Portfolio Section -->
+        <!--Event Section-->
         <h2>Events</h2>
-
         <div class="row">
+
+          <!--Card 1: Events 2-->
           <div class="col-lg-4 col-sm-6 portfolio-item">
             <div class="card h-100">
               <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
               <div class="card-body">
-                <h4 class="card-title">
-                Event 1
-              </h4>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
               </div>
             </div>
           </div>
+
+          <!--Card 2: Events 2-->
           <div class="col-lg-4 col-sm-6 portfolio-item">
             <div class="card h-100">
               <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
               <div class="card-body">
-                <h4 class="card-title">
-                Event 2
-              </h4>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
               </div>
             </div>
           </div>
+
+          <!--Card 3: Events 3-->
           <div class="col-lg-4 col-sm-6 portfolio-item">
             <div class="card h-100">
               <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
               <div class="card-body">
-                <h4 class="card-title">
-                Event 3
-              </h4>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
               </div>
             </div>
           </div>
         </div>
-        <!-- /.row -->
       </div>
 
       <!-- Advertisements -->
-      <div class="col-lg-3 mb-4">
-          <!-- <a href="#"><h3 class="list-group-item">oaweif</h3></a> -->
-          <a href="http://www.lghealthcarellc.com/"><img src="assets/banners/john-gong.jpg" width="329.562" height="50"></a>
-          <a href="http://southbarringtondentist.com/"><img src="assets/banners/michael-chin.jpg" width="329.562" height="50"></a>
-          <a href="https://www.northshore.org/apps/findadoctor/physicians/hong-chen"><img src="assets/banners/hong-chen.jpg" width="329.562" height="50"></a>
-          <a href="http://www.soaringeaglekungfu.com/"><img src="assets/banners/kung-fu.jpg" width="329.562" height="50"></a>
-          <a href="http://www.freshdentalil.com/"><img src="assets/banners/lijuan-huang.jpg" width="329.562" height="50"></a>
-          <a href="http://www.janeleehomes.com/"><img src="assets/banners/jane-lee.jpg" width="329.562" height="50"></a>
-          <img src="assets/banners/new-ads.gif" width="329.562" height="70">
+      <div class="col-lg-3 h-100">
+        <div class="ad">
+          <a href="http://www.lghealthcarellc.com/">
+            <img class="ads" src="assets/banners/john-gong.jpg">
+          </a>
+          <a href="http://southbarringtondentist.com/">
+            <img class="ads" src="assets/banners/michael-chin.jpg">
+          </a>
+          <a href="https://www.northshore.org/apps/findadoctor/physicians/hong-chen">
+            <img class="ads" src="assets/banners/hong-chen.jpg">
+          </a>
+          <a href="http://www.soaringeaglekungfu.com/">
+            <img class="ads" src="assets/banners/kung-fu.jpg">
+          </a>
+          <a href="http://www.freshdentalil.com/">
+            <img class="ads" src="assets/banners/lijuan-huang.jpg">
+          </a>
+          <a href="http://www.janeleehomes.com/">
+            <img class="ads" src="assets/banners/jane-lee.jpg">
+          </a>
+          <img class="ads" src="assets/banners/new-ads.gif" width="">
 
+        </div>
       </div>
     </div>
-    </div>
-    <!-- /.row -->
-
-
-
-    <!-- Marketing Icons Section -->
-
-
-    <!-- Features Section -->
-    <!-- <div class="row">
-        <div class="col-lg-6">
-          <h2>Modern Business Features</h2>
-          <p>The Modern Business template by Start Bootstrap includes:</p>
-          <ul>
-            <li>
-              <strong>Bootstrap v4</strong>
-            </li>
-            <li>jQuery</li>
-            <li>Font Awesome</li>
-            <li>Working contact form with validation</li>
-            <li>Unstyled page elements for easy customization</li>
-          </ul>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
-        </div>
-        <div class="col-lg-6">
-          <img class="img-fluid rounded" src="http://placehold.it/700x450" alt="">
-        </div>
-      </div> -->
-    <!-- /.row -->
-
-    <hr>
-
-    <!-- Call to Action Section -->
-    <!-- <div class="row mb-4">
-        <div class="col-md-8">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, expedita, saepe, vero rerum deleniti beatae veniam harum neque nemo praesentium cum alias asperiores commodi.</p>
-        </div>
-        <div class="col-md-4">
-          <a class="btn btn-lg btn-secondary btn-block" href="#">Call to Action</a>
-        </div>
-      </div> -->
-
+  </div>
   </div>
   <!-- /.container -->
 
   <!-- Footer -->
-  <footer class="py-5 bg-dark">
+  <footer class="py-5">
     <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Fenghua Academy 2018</p>
-      <p class="m-0 text-center text-white">Site designed and maintained by <a href="https://alicesf2.github.io/">Alice Fang</a>.</p>
-      <p class="m-0 text-center text-white"><a href="footer/login.html">Login</a></p>
-      <p class="m-0 text-center text-white"><a href="footer/donate.html">Donate</a></p>
-      <p class="m-0 text-center text-white"><a href="footer/contact.html">Contact</a></p>
+      <p class="m-0 text-center">Copyright &copy; Fenghua Academy 2018</p>
+      <p class="m-0 text-center">Site designed and maintained by <a href="https://alicesf2.github.io/">Alice Fang</a>.</p>
+      <br>
+      <span class="footer-btn">
+          <a href="footer/login.html" class="btn btn-outline-dark" id="login">Login</a>
+          <a href="footer/donate.html" class="btn btn-outline-dark" id="donate">Donate</a>
+          <a href="footer/contact.html" class="btn btn-outline-dark" id="contact">Contact</a>
+        </span>
     </div>
-    <!-- /.container -->
   </footer>
 
   <!-- Bootstrap core JavaScript -->
